@@ -19,9 +19,9 @@ RUN pip install jupyter nbconvert ipykernel pandas numpy xarray requests
 RUN pip install geopandas fiona shapely rasterio rioxarray pystac pystac-client
 
 # install visualisation packages
-RUN pip install hvplot geoviews holoviews datashader jupyter-bokeh
+RUN pip install hvplot geoviews holoviews datashader jupyter-bokeh matplotlib plotly seaborn
 
 #experimental packages
-RUN pip install stackstac odc-stac pytz ruff pytest pylint
+RUN pip install stackstac odc-stac pytz ruff pytest pylint "dask[distributed]"
 
 CMD ["sleep", "infinity"]
