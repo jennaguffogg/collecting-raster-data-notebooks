@@ -13,3 +13,6 @@ idea:
     - map view showing true colour composite of area
     - time series of NDVI, EVI, LAI, etc.
     - flexboxes with metrics
+
+
+You need to use a dockerfile that includes GDAL.
