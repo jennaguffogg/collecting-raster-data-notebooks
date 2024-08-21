@@ -18,6 +18,7 @@ hvplot
 geoviews
 holoviews
 datashader
+panel
 jupyter-bokeh
 odc-stac
 owslib
